@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saminur Rahman</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.11.1/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+    <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+            </div>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                <li><a class="t" href="#" onclick="showHome()">Home</a></li>
+                <li><a class="t" href="#" onclick="showAbout()">About</a></li>
+                <li><a class="t" href="#" onclick="showPortfolio()">Skills</a></li>
+                <li><a class="t" href="#" onclick="showContact()">Contact</a></li>
+            </ul>
+          </div>
+          <a class="btn btn-ghost text-xl">Saminur Rahman</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a class="t" href="#" onclick="showHome()">Home</a></li>
+                <li><a class="t" href="#" onclick="showAbout()">About</a></li>
+                <li><a class="t" href="#" onclick="showPortfolio()">Skills</a></li>
+                <li><a class="t" href="#" onclick="showContact()">Contact</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <a class="btn">Button</a>
+        </div>
+      </div>
+    <section id="home">
+        <div class="hero min-h-screen" style="background-image: url(../../web2.jpg);">
+            <div class="hero-overlay bg-opacity-60"></div>
+            <div class="hero-content text-center text-neutral-content">
+              <div class="max-w-md">
+                <h1 class="mb-5 text-5xl font-bold">Saminur Rahman</h1>
+                <p class="mb-5">I am a Web Developer.</p>
+                <p>Welcome to my Personal website</p>
+              </div>
+            </div>
+          </div>
+    </section>
+    
+    <section id="about" class="card" style="display: none;">
+        <div class="about-container flex">
+            <div class="about-picture">
+                <img class="w-[1000px]" src="samin.jpg" alt="Middle Sized Picture">
+            </div>
+            <div class="about-biography">
+                <h2><strong>Short Biography</strong></h2>
+                <p>I was born and raised in Noakhali.I finished my primary school certificate(PSC)  from Eklashpur High Attached Govt. Primary School.I have completed my Secondary School certificate (SSC)  from <a class="bg-blue-600" href="https://eklashpurhighschool.edu.bd/">Eklashpur High School</a>.I finished my Higher Secondary School certificate (HSC) education from <a class="bg-blue-600" href="https://www.cgsacollege.edu.bd/">Chowmuhani Govt. SA College</a>, which is one of the district's best educational institution.In 2022, I got admitted into <a class="bg-blue-600" href="https://green.edu.bd/">Green University Of Bangladesh</a> (GUB) in the department of Computer Science and Engineering Now I am pursuing my B.Sc degree and I am now studying in Honors 3rd year.
+                    My Family
+                    My father was a retired bank officer. He was working as a principal senior officer of Agrani Bank. My mother is a housewife.I have two elder sisters. The elder sister has done honors and masters from Noakhali Science and Technology university in Biotechnology and Genetic Engineering department. The younger sister completed her Honors and Masters in Economics from Noakhali Government College.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="portfolio" class="card" style="display: none;">
+        <h2>Skills</h2>
+        <div class="portfolio-item">
+            
+            <h3>First Skills</h3>
+            <p>C language, java , javascript</p>
+        </div>
+        <div class="portfolio-item">
+            
+            <h3>Second Skills</h3>
+            <p>Web Developer</p>
+        </div>
+        <div class="portfolio-item">
+            
+            <h3>Third Skills</h3>
+            <p>os system - windows</p>
+        </div>
+        
+        <!-- Add more portfolio items as needed -->
+    </section>
+    
+    <section id="contact" class="card bg-orange-600" style="display: none;">
+        <h2>Contact Information</h2>
+        <div class="contact-info">
+            <p><strong>Present Address:</strong></p>
+            <p>Saminur Rahman</p>
+            <p>Green University of Bangladesh</p>
+            <p>Nikunjo-2, Khilkhet , Dhaka</p>
+            <p>Contact Number: 01402148189</p>
+            <p>Email: rahmansaminur51@gmail.com</p>
+            <p>Skype: Saminur Rahman</p>
+        </div>
+        <div class="contact-info">
+            <p><strong>Permanent Address:</strong></p>
+            <p>MD Saminur Rahman</p>
+            <p>Patwary Bari,Eklashpur, Begumgonj, Noakhali</p>
+            <p>Noakhali, Bangladesh</p>
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7299.708826394083!2d90.41286578862102!3d23.823775529174338!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c65a3d9b9649%3A0xff4da0194c977480!2z4Kao4Ka_4KaV4KeB4Kae4KeN4KacIOCnpywg4Kai4Ka-4KaV4Ka-!5e0!3m2!1sbn!2sbd!4v1715675604764!5m2!1sbn!2sbd" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Saminur Rahman. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function showHome() {
+            document.getElementById("home").style.display = "block";
+            document.getElementById("about").style.display = "none";
+            document.getElementById("portfolio").style.display = "none";
+            document.getElementById("contact").style.display = "none";
+        }
+
+        function showAbout() {
+            document.getElementById("home").style.display = "none";
+            document.getElementById("about").style.display = "block";
+            document.getElementById("portfolio").style.display = "none";
+            document.getElementById("contact").style.display = "none";
+        }
+
+        function showPortfolio() {
+            document.getElementById("home").style.display = "none";
+            document.getElementById("about").style.display = "none";
+            document.getElementById("portfolio").style.display = "block";
+            document.getElementById("contact").style.display = "none";
+        }
+
+        function showContact() {
+            document.getElementById("home").style.display = "none";
+            document.getElementById("about").style.display = "none";
+            document.getElementById("portfolio").style.display = "none";
+            document.getElementById("contact").style.display = "block";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Styles for card */
+.card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    background-color: gray;
+}
+
+/* Additional styles for home section */
+.home {
+    background-color: lightblue; /* Change to desired background color */
+    text-align: center;
+    padding: 50px;
+}
+
+/* Styles for about section */
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-picture {
+    margin-right: 20px;
+}
+
+.t {
+    color: blue;
+}
+.head {
+    background-color:#0C0C0C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

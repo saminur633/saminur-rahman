@@ -25,10 +25,12 @@
                 <li><a class="t" href="#" onclick="showContact()">Contact</a></li>
             </ul> 
           </div>
-          <div class="w-10 rounded-full">
-            <img alt="Tailwind CSS Navbar component" src="samin.jpg" />
-          </div>
-          <a class="btn btn-ghost text-xl">Saminur Rahman</a>
+         <div class="grid grid-cols-1 sm:grid-cols-2  ">
+            <div class="w-10 h-10 rounded-full overflow-hidden">
+                <img class="w-full h-full object-cover" alt="Tailwind CSS Navbar component" src="samin.jpg" />
+              </div>
+         </div>
+          <a class="btn btn-ghost text-xl gap-4 px-12 ">Saminur Rahman</a>
         </div>
         <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal px-1">
@@ -57,7 +59,7 @@
             </div>
           </div>
     </section>
-    
+    <!-- biography section -->
     <section id="about" class="card " style="display: none;">
         <div class="about-container flex">
             <div class="about-picture">
@@ -71,7 +73,7 @@
             </div>
         </div>
     </section>
-    
+    <!-- skills section -->
     <section id="portfolio" class="card" style="display: none;">
         <h2><strong>SKILLS</strong></h2>
         <div class="portfolio-item">
@@ -93,7 +95,7 @@
         
         <!-- Add more portfolio items as needed -->
     </section>
-    
+    <!-- contact section -->
     <section id="contact" class="card bg-orange-600" style="display: none;">
         <h2>Contact Information</h2>
         <div class="contact-info">

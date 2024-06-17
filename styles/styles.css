@@ -46,7 +46,7 @@ footer {
     border: 1px solid #ccc;
     padding: 20px;
     margin: 20px;
-    background-color: gray;
+    background-color: rgb(128, 128, 128);
 }
 
 /* Additional styles for home section */
